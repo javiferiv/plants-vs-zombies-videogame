@@ -95,6 +95,8 @@ const Game = {
         this.player = new Player(this.ctx, this.canvasSize, 100, 100, 'img/player-one.png', this.keys);
         this.enemies = [];
         this.strongEnemies = [];
+        this.powers = [];
+        this.powersLive = [];
         this.points = 0
         this.level = 0
     },
